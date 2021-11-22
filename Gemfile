@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.4'
+gem 'rails', '~> 5.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
@@ -57,3 +57,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # gems for rails-api
 gem 'bcrypt', '~> 3.1' , '>= 3.1.12'
 gem 'rack-cors', :require => 'rack/cors'
+gem 'active_model_serializers'
+gem 'activestorage'
